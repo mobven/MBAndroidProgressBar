@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mb_progress_bg_stroke">2dp</dimen>
+    <dimen name="mb_progress_fg_stroke">5dp</dimen>
+</resources>
