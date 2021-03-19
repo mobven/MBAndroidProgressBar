@@ -1,0 +1,3 @@
+include ':progress'
+include ':app'
+rootProject.name = "MBAndroidProgressBar"
