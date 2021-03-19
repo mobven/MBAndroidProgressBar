@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mobven.progress.MBCircularProgressBar
+        android:id="@+id/circular_progress_bar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:fgColor="#3F51B5"
+        app:bgColor="#E0E0E0"
+        app:progress="50"
+        app:max="100"
+        app:min="0"/>
+
+    <com.mobven.progress.MBVerticalProgressBar
+        android:id="@+id/vertical_progress_bar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:fgColor="#FF5722"
+        app:bgColor="#E0E0E0"
+        app:progress="50"
+        app:max="100"
+        app:min="0"/>
+
+    <com.mobven.progress.MBHorizontalProgressBar
+        android:id="@+id/horizontal_progress_bar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:fgColor="#F44336"
+        app:bgColor="#E0E0E0"
+        app:progress="50"
+        app:max="100"
+        app:min="0"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_decrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -10 Decrease"
+        android:textSize="16sp"
+        android:textAppearance="@style/Widget.MaterialComponents.Button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_increase" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_increase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" +10 Increase"
+        android:textSize="16sp"
+        android:textAppearance="@style/Widget.MaterialComponents.Button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_decrease"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
