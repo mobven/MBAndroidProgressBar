@@ -24,7 +24,7 @@ If you want to update progress value with animation, use **setProgressWithAnimat
 
 ## Circular Progress Bar
 
-![](art/circular_progress_bar.gif)
+![](art/horizontal_progress_bar.gif)
 
 ### Add circular progress bar to your layout xml
 
@@ -40,6 +40,8 @@ If you want to update progress value with animation, use **setProgressWithAnimat
 
 ## Vertical Progress Bar
 
+![](art/vertical_progress_bar.gif)
+
 ### Add vertical progress bar to your layout xml
 
     <com.mobven.progress.MBVerticalProgressBar
@@ -53,6 +55,8 @@ If you want to update progress value with animation, use **setProgressWithAnimat
 		  app:min="0"/>
 
 ## Horizontal Progress Bar
+
+![](art/horizontal_progress_bar.gif)
 
 ### Add horizontal progress bar to your layout xml
 
