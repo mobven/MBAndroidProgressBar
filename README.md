@@ -24,7 +24,7 @@ If you want to update progress value with animation, use **setProgressWithAnimat
 
 ## Circular Progress Bar
 
-![](art/horizontal_progress_bar.gif)
+![](art/circular_progress_bar.gif)
 
 ### Add circular progress bar to your layout xml
 
