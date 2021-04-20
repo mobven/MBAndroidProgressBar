@@ -3,7 +3,25 @@ An animated ProgressBar library that works in Circular, Vertical or Horizontal
 
 # Download
 
+### Step 1. Add the JitPack repository to your build file
 
+```
+allprojects {
+    repositories {
+	    ...
+	    maven { url 'https://jitpack.io' }
+	}
+}
+
+```
+
+### Step 2. Add the dependency
+
+```
+dependencies {
+	   implementation 'com.github.mobven:MBAndroidProgressBar:1.0.0'
+	}
+```
 
 # Usage
 
